@@ -1,0 +1,61 @@
+\documentclass[a4paper]{article}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+\title{Detector Geometries}
+\author{John R. Quirk}
+\date{2013 October 23}
+
+
+\begin{document}
+\maketitle
+
+\section{Different Geometries}
+There are four major geomitries we will be checking,
+seen in figures \ref{fig:chamb_45135_bcout}-\ref{fig:chamb_9090_bcin}.
+The two big variables are whether or not the silicon detectors are
+in a $45^{\circ}/135^{\circ}$. and whether the beam counter is inside or
+outside the chamber.
+
+
+
+\begin{figure}
+  \centering
+  \begin{subfigure}[t]{0.45\textwidth}
+    \includegraphics[scale=0.15]{chamber_orientations_pics/chamber_45135_BCout}
+    \caption{The beam counter is outside the chamber. The beam left silicon detectors
+    are are at a $45^{\circ}$ angle to the beam direction, and the beam right
+    silicon detectors are at $135^{\circ}$.}
+    \label{fig:chamb_45135_bcout}
+  \end{subfigure}
+  ~
+  \begin{subfigure}[t]{0.45\textwidth}
+    \includegraphics[scale=0.15]{chamber_orientations_pics/chamber_9090_BCout}
+    \caption{The beam counter is outside of the chamber, with the beam left and beam
+    right silicon detectors both at $90^{\circ}$ to the beam direction.}
+    \label{fig:chamb_9090_bcout}
+  \end{subfigure}
+
+  \begin{subfigure}[t]{0.45\textwidth}
+    \includegraphics[scale=0.15]{chamber_orientations_pics/chamber_45135_BCin}
+    \caption{The beam counter is now inside the chamber, and the silicon detectors
+    are back in the $45^{\circ}/135^{\circ}$ orientation.}
+    \label{fig:chamb_45135_bcin}
+  \end{subfigure}
+  ~
+  \begin{subfigure}[t]{0.45\textwidth}
+    \includegraphics[scale=0.135]{chamber_orientations_pics/chamber_9090_BCin}
+    \caption{The beam counter is inside the chamber, and the silicon detector orientation
+    is $90^{\circ}/90^{\circ}$.}
+    \label{fig:chamb_9090_bcin}
+  \end{subfigure}
+  \caption{The different beam counter geometries.}
+  \label{fig:chamb_geos}
+\end{figure}
+
+
+
+
+\end{document}

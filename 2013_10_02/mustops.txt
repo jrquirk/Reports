@@ -1,0 +1,9 @@
+
+
+
+Setup	Sctrd	GenMuon		Sctd/GenMuon	Valid		Sctd/Valid	PriStop		Sctd/PriStop	PriStop/Valid
+External Beam Counter
+135 deg	9157	11000000	83.2455E-5	10530474	86.9571E-5	1628797		56.2194E-4	15.4675E-2
+90 deg	109	3000000		03.6333E-5	2873037		03.7938E-5	444076		02.4545E-4	15.4567E-2
+Internal Beam Counter
+90 deg		8810348				3461342				2529928				73.0910E-2

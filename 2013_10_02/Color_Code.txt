@@ -1,0 +1,7 @@
+Proton Rates:
+135deg	red
+090deg	black
+
+Else:
+135deg	black
+909deg	red

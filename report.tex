@@ -1,0 +1,65 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{commath}
+\usepackage{graphicx}
+
+
+\newcommand{\cm}[1]{\mathcal{#1}}
+
+
+\title{Shielding and Orientation}
+\date{2013 August 29}
+
+
+
+\begin{document}
+\maketitle
+
+\section{Shielding}
+\subsection{Concern}
+
+Noise from muons stopping in things other than target will produce
+avoidable background, such as high rates in detectors,
+especially of protons from materials other than that of the target.
+To the best of my ability, I have reproduced the
+important aspects of the old detector in figure \ref{fig:olddet}.
+
+\begin{figure}
+  \includegraphic[scale=0.1]{img/olddet.jpg}
+  \caption{The old detector.}
+  \label{fig:olddet}
+\end{figure}
+
+The biggest issue would be the position of the collimator.
+There there is a line of sight between scattered muons from
+the beam window and the downstream detectors. We see the muon
+stopping locations in \ref{fig:olddet_mustops}. This is
+unnacceptable, so we put in the shielding we discussed,
+as seen in \ref{fig:newdet}. Here we see the muons stopping
+in the downstream arm are quite reduced, and all of the ones left
+have scattered from the target (which we can do nothing about).
+Specifically \ref{tab:percentstop}.
+
+\begin{table}
+  \begin{tabular}{l | c c}
+    & Old & New \\
+    \hline
+    Downstream Detector & ??\% & ??\% \\
+    Chamber & ??\% & ??\%
+  \end{tabular}
+\caption{Muon stop locations}
+\label{tab:percentstop}
+\end{table}
+
+But what about the muons that are still getting through to the chamber? Well \ref{fig:walldet}. We see
+the proton rates compared to before in \ref{tab:protrates}
+
+\begin{table}
+\begin{tabular}{l | c c }
+  & New & New (with Lead Wall) \\
+  \hline
+  
+\end{table}
+
+\end{document}
